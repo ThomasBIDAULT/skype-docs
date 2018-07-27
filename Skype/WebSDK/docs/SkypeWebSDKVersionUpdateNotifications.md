@@ -11,6 +11,7 @@
 **Bug fixed in Web SDK:**
 *Remove "displayName" from queryString in contactHref property of json returned from UCWA when searching a  contact.
 
+
 ## Skype Web SDK Version Update 10/02/17
 
 | Product        | New Version           | Last Updated  |Previous Version
