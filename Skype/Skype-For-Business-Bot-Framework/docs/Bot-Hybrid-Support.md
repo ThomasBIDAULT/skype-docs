@@ -44,7 +44,7 @@ New-CsHybridApplicationEndpoint -ApplicationId <AppID generated from Bot Framewo
 |LineUri|Optional|String|Valid phone number for the application endpoint.(Not currently supported through BOT framework )|
 |OU|Required|String|Azure Directory Organizational Unit (OU) of the user|
  
-The succesful execution of **New-CsHybridApplicationEndpoint** cmdlet will create a disabled user object on the Azure Directory and show **"Successfully initiated provisioning of application endpoint on-prem"** message.
+The succesful execution of **New-CsHybridApplicationEndpoint** cmdlet will create a disabled user object on the Active Directory and show **"Successfully initiated provisioning of application endpoint on-prem"** message.
 
 
 4\. Wait for the newly created user object to be directory synced to the Azure Active Directory or start a new directory sync cycle by running the [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler#start-the-scheduler) on the domain controller machine. To learn more about Azure AD Connect directory sync, see [Azure AD Connect sync: Scheduler](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) and [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)
